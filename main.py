@@ -1,7 +1,7 @@
 import random
 import string
 
-word_lenght = 18
+WORD_LENGHT = 18
 
 characters = [string.ascii_letters, string.digits, "!@#$%&"]
 chars = []
@@ -12,7 +12,7 @@ for clist in characters:
 
 def generate_chars():
     char_generator = []
-    for i in range(word_lenght):
+    for rchar in range(WORD_LENGHT):
         rchar = random.choice(chars)
         char_generator.append(rchar)
 
