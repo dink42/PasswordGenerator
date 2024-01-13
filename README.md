@@ -6,23 +6,8 @@
 
 ## About the project
 
-> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+> Password generator, trying to stay consistent with scripting.
 
-### Future for the project
+### How to
 
-    1. Placeholder
-        - Placeholder
-            - Placeholder
-            
-    2. Placeholder
-        - Placeholder
-            - Placeholder
-            
-    3. Placeholder
-        - Placeholder
-            - Placeholder
-                - Placeholder
-
-### Future
-
-> Lorem.
+1. No libaries needed to be downloaded with pip for this simple yet fun password generator. Import random for generate random characters. And string for ASCII string, lowercase letter uppercase letters, numbers, hexadecimal numbers, and alll octal numbers and punktuations. It's well documented if you want to read about this libary and functions just go to https://docs.python.org/3/library/string.html for official documentation.
