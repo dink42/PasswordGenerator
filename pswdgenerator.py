@@ -17,10 +17,10 @@ def generate_chars():
     """
     Generate a random string of characters.
 
-    Returns:
-        str: Random string of characters.
+    :return: str
+        Random string of characters.
     """
-    char_generator = [random.choice(chars)for _ in range(WORD_LENGTH)]
+    char_generator = [random.choice(chars) for _ in range(WORD_LENGTH)]
     return ''.join(char_generator)
 
 
