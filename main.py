@@ -10,13 +10,13 @@ for clist in characters:
         chars.append(item)
 
 
-def generate_password():
-    password = []
+def generate_chars():
+    char_generator = []
     for i in range(word_lenght):
         rchar = random.choice(chars)
-        password.append(rchar)
+        char_generator.append(rchar)
 
-    return ''.join(password)
+    return ''.join(char_generator)
 
 
-print(generate_password())
+print(generate_chars())
