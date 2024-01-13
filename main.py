@@ -1,5 +1,8 @@
 import random
 import string
+"""Module providing a function printing python version."""
+import sys
+
 
 WORD_LENGHT = 18
 
@@ -20,3 +23,10 @@ def generate_chars():
 
 
 print(generate_chars())
+
+
+def print_python_version():
+    print(sys.version)
+
+
+print_python_version()
