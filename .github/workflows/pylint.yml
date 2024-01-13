@@ -20,4 +20,4 @@ jobs:
         pip install pylint
     - name: Analysing the code with pylint
       run: |
-        dir /b /s *.py | ForEach-Object { pylint $_ }
+        Get-ChildItem -Recurse -Filter *.py | ForEach-Object { pylint $_.FullName }
